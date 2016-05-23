@@ -1,0 +1,55 @@
+/* CSS Document */
+body {
+	background-image:url(../Images/green_blurred_background.jpg);
+}
+
+.even {
+	background-color: yellowgreen;
+}
+
+table {
+	background-color:white;
+	border: 5px solid black;
+	border-radius: 5px;
+	position: relative;
+	top: 45px;
+	margin:auto;
+}
+
+tbody {
+	text-align:center;
+}
+
+tfoot {
+	text-align:center;
+}
+
+
+th {
+	color:black;
+	width: 200px;
+	background-color: white;
+}
+
+tr {
+	font-size:18px;
+	font-weight:700;
+	color: white;
+	background-color: #09C;
+	height: 35px;
+}
+
+a {
+	text-decoration:none;
+	color:#09C;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:yellowgreen;
+}
+
+#row_delete {
+	color: white;
+	text-decoration: underline;
+}

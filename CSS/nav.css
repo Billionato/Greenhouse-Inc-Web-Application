@@ -1,0 +1,42 @@
+#header {
+	 position: fixed;
+	 width: 100%;
+	 /*height: 50px;*/
+	 background-color: #09C;
+	 top: 0px;
+	 right: 0px;
+	 z-index:1;
+}
+
+#nav {
+	width: 500px;
+	/*height: 50px;*/
+	margin: auto;
+}
+
+.linkHeader {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	color: white;
+	text-align: center;
+	/*border: 2px solid white;*/
+	padding: 10px 5px 0px 5px;
+	text-decoration:none;
+	opacity: 0.5;
+}
+
+#linkLogout {
+	float:right;
+}
+
+.linkHeader:hover {
+	background-color: yellowgreen;
+	text-decoration:none;
+	color: white;
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.75s;
+	-webkit-transition-property: opacity; /*For Safari*/
+	-webkit-transition-duration: 0.75s;
+}

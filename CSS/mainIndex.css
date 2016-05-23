@@ -1,0 +1,752 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0 auto;
+}
+
+body {
+	margin: 0 auto;
+	height: 100%;
+}
+
+a {
+	color: yellowgreen;
+}
+
+#header {
+	 position: fixed;
+	 width: 100%;
+	 height: 50px;
+	 background-color: #09C;
+	 margin-top: -5px;
+	 z-index: 1;
+}
+
+#phMsgBrowser {
+	height: 40px;
+	width: 50%;
+	color: white;
+	background-color: #333;
+    background: rgba(0,0,0,.8);
+	border-bottom: 3px solid #09C;
+	border-left: 3px solid #09C;
+	border-right: 3px solid #09C;
+	/*border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;*/
+}
+
+#msgBrowser {
+	/*width: 450px;*/
+	position: relative;
+	left: 65px;
+	bottom: -10px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+#close {
+	position: relative;
+	width: 25px;
+	padding: 3px;
+	cursor:pointer;
+	font-weight:bold;
+	text-align:center;
+	/*border: 3px solid #F00;*/
+	border-radius: 100%;
+	background-color: #F00;
+	/*margin-top: -17px;
+	margin-right: 15px;*/
+	top: -14px;
+	right: -310px;
+}
+
+/*#close:hover {
+	background-color: #F00;
+}*/
+
+#nav {
+	width: 750px;
+	height: 50px;
+	margin: auto;
+}
+
+/*#login {
+	float: right;
+}
+
+#signUp {
+	float: right;
+}*/
+
+#phSignUp {
+	float: right;
+}
+
+#phLogin {
+	margin-left: 75px;
+	/*float: right;*/
+}
+
+#phTeam {
+	/*border: 2px solid yellowgreen;*/
+	margin: auto;
+	position: relative;
+	top: 25px;
+	width: 25%;
+}
+
+#phOptTeamInfo {
+	/*margin:auto;*/
+	width: 495px;
+	margin-top: 10px;
+	/*margin-left: 600px;*/
+	margin-left: 33%;
+	padding-bottom: 10px;
+	border-bottom: 2px solid yellowgreen;
+}
+
+#homePage {
+	background: url(../Images/greenhouse2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+	background-color: black;
+	height: 1100px;
+	/*margin: auto;
+	width: 100%;*/
+	padding-top: 10px;
+}
+
+#newsletter {
+	margin-top: 20px;
+}
+
+#aboutUsPage {
+	height: 1100px;
+	width: 100%;
+	background-color: lightblue;
+	padding-top: 10px;
+}
+
+#theTeamPage {
+	height: 1650px;
+	width: 100%;
+	background-color: #666;
+	padding-top: 10px;
+}
+
+#loginPage {
+	height: 1100px;
+	width: 100%;
+	background-image:url(../Images/green_blurred_background.jpg);
+	padding-top: 10px;	
+}
+
+#phNewsletter {
+	float: right;
+	margin-right: 75px;
+	margin-top: 225px;
+	/*margin-top: 450px;*/
+}
+
+#team_optDefault {
+	color: white;
+	font-size: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid yellowgreen;
+	text-align: center;
+	width: 500px;
+}
+
+#teamAllofUs {
+	display:none;
+}
+
+#teamBod {
+	display: none;
+}
+
+#teamFinance {
+	display: none;
+}
+
+#teamMarketing {
+	display: none;
+}
+
+#teamProduction {
+	display: none;
+}
+
+#teamHr {
+	display: none;
+}
+
+#teamPr {
+	display:none;
+}
+
+#allOfUsOpt {
+	display: none;
+}
+
+#bodOpt {
+	display: none;
+}
+
+#financeOpt {
+	display: none;
+}
+
+#marketingOpt {
+	display: none;
+}
+
+#productionOpt {
+	display: none;
+}
+
+#hrOpt {
+	display: none;
+}
+
+#prOpt {
+	display: none;
+}
+
+.phOptHeader {
+	display:inline-block;
+}
+
+.optHeader {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	background-color: #09C;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 15px;	
+	opacity: 0.5;
+}
+
+.optHeader:hover {
+	background-color: yellowgreen;
+	color: white;
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.75s;
+	-webkit-transition-property: opacity; /*For Safari*/
+	-webkit-transition-duration: 0.75s;
+}
+
+.pagePadding {
+	height: 90px;
+	width: 100%;
+}
+
+.dropMenu {
+	position: absolute;
+	left: 7px;
+	right: -7px;
+	top: 40px;
+	list-style-type: none;
+	display: none;
+	margin-top: 10px;
+}
+
+.dropMenuItem {
+	display:block;
+	height: 35px;
+	width: 100px;
+	background-color: #09C;
+	padding-top: 15px;
+	border-bottom: 2px solid white;
+	text-align: center;
+	color: white;
+	opacity: 0.5;
+}
+
+.dropMenuItem:hover {
+	background-color: yellowgreen;
+	color: white;
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.75s;
+	-webkit-transition-property: opacity; /*For Safari*/
+	-webkit-transition-duration: 0.75s;
+}
+
+.synopsis {
+	display: none;
+	width: 100px;
+	height: 50px;
+	background-color: #09C;
+}
+
+.heading {
+	float: left;
+	font-size: 62px;
+	margin-left: 75px;
+	color: white;
+	font-family: monospace;
+	font-weight:900;
+}
+
+.sub_heading {
+	clear:left;
+	margin-left: 75px;
+	margin-top: 10px;
+	font-size: 24px;
+	color: white;
+	font-family: monospace;
+	font-weight: 900;
+	padding-bottom: 5px;
+	border-bottom: 2px solid yellowgreen;
+}
+
+.infoText {
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	width: 450px;
+}
+
+.txtField {
+	width: 310px;
+	height: 35px;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	font-size: 20px;
+}
+
+.newsButton {
+	height: 45px;
+	width: 100px;
+	border-radius: 5px;
+	padding: 2.5px 10px 2.5px 10px;
+	color: white;
+	background-color: #09C;
+	border: none;
+	font-size: 20px;
+	margin-left: 10px;
+}
+	
+.memberImage {
+	display: inline-block;
+	position: relative;
+	border-left: 3px solid yellowgreen;
+	border-top: 3px solid yellowgreen;
+	border-bottom: 3px solid yellowgreen;
+	
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+.memberInfo {
+	display: none;
+	position: absolute;
+	top: 0px;
+	font-size: 16px;
+	color: white;
+	background: #333;
+    background: rgba(0,0,0,.8);
+	/*opacity: 0.25;*/
+	height: 100%;
+	width: 100%;
+}
+
+.memberTitle {
+	display: none;
+	width: 100%;
+	background: #333;
+    background: rgba(0,0,0,.8);
+	color: white;
+	font-size: 18px;
+	font-weight:650;
+	text-align:center;
+}
+
+.msgInfo {
+	display: none;
+	width: 100%;
+	background: #333;
+    background: rgba(0,0,0,.8);
+	color: white;
+	font-size: 16px;
+	text-align:center;
+}
+
+.teamList {
+	margin:auto;
+	margin-top: 50px;
+}
+
+.team_dropMenu {
+	display: none;
+	/*position: absolute;*/
+}
+
+/*.team_dropMenuItem {
+	
+}*/
+
+.optTeamInfo {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.team_dropMenuItem:hover {
+	/*background-color: yellowgreen;*/
+	color: yellowgreen;
+	cursor: pointer;
+}
+
+.newsButton:hover {
+	background-color: yellowgreen;
+}
+
+#phServices:hover .dropMenu {
+	display:block;
+}
+
+#team_optDefault:hover .team_dropMenu {
+	display: block;
+}
+
+.dropMenuItem: hover .synopsis {
+	display: inline-block;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*Test Center*/
+#aboutUsNav {
+	width: 200px;
+	/*height: 865px;*/
+	background-color: lightblue;
+	border-right: 2px solid yellowgreen;
+	float: left;
+	margin-left: 5px;
+}
+
+#aboutUsCard {
+	width: 850px;
+	/*width: 1125px;*/
+	height: 865px;
+	background-color: lightblue;
+	float: right;
+	margin-right: 25px;
+	text-align:center;
+	/*border: 2px solid #09C;*/
+}
+
+.aboutUsContent {
+	font-weight: bolder;
+}
+
+#contactAboutUsContent {
+	float: right;
+	width: 250px;
+	/*height: 250px;*/
+	border-left: 2px solid yellowgreen;
+	border-bottom: 2px solid yellowgreen;
+	/*margin-right: 5px;*/
+}
+
+#contactAboutUs-header {
+	text-align:center;
+	background-color: yellowgreen;
+	padding: 5px 0px 5px 0px;
+}
+
+#optOverview {
+	margin-top: 0px;
+}
+
+#revenueAboutUsContent {
+	display: none;
+}
+
+#investorAboutUsContent {
+	display: none;
+}
+
+#faqAboutUsContent {
+	display:none;
+}
+
+.sectionContactAboutUs-info {
+	padding:0px 0px 0px 5px;
+}
+
+.contactAboutUs-info {
+	padding: 5px 0px 0px 5px;
+	font-weight: bolder;
+}
+
+.optAboutUsNav {
+	height: 25px;
+	cursor: pointer;
+	/*margin: 10px 0px 10px 0px;*/
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+	font-weight: bolder;
+}
+
+.optAboutUsNav:hover {
+	background-color: yellowgreen;
+}
+
+.optAboutUsNav-click {
+	height: 25px;
+	cursor: pointer;
+	/*margin: 10px 0px 10px 0px;*/
+	padding: 10px 0px 10px 0px;
+	text-align:center;
+	font-weight:bolder;
+	background-color:yellowgreen;
+}
+
+.titleAboutUsContent {
+	padding: 5px 0px 5px 0px;
+	color: black;
+	/*background-color: yellowgreen;*/
+}
+
+.sub-titleAboutUsContent {
+	text-decoration:underline;
+}
+
+/*Team Page Section*/
+#titleAllOfUsOpt {
+	display: none;
+	margin-left: 185px;
+}
+
+#titleBodOpt {
+	display: none;
+	margin-left:125px;
+}
+
+#titleFinanceOpt {
+	display: none;
+	margin-left: 110px;
+}
+
+#titleMarketingOpt {
+	display:none;
+	margin-left:95px;
+}
+
+#titleProductionOpt {
+	display:none;
+	margin-left:85px;
+}
+
+#titleHrOpt {
+	display:none;
+	margin-left:45px;
+}
+
+#titlePrOpt {
+	display: none;
+	margin-left:45px;
+}
+
+.titleOptTeamInfo {
+	color:white;
+	/*margin-left:125px;*/
+}
+
+/*SandBox*/
+#memberInfo-Andrew {
+	position: absolute;
+	left: 202px;
+}
+
+#memberInfo-Finote {
+	position: absolute;
+	left: 202px;
+}
+
+#memberInfo-Karan {
+	position:absolute;
+	left: 202px;
+}
+
+#memberInfo-Ringo {
+	position:absolute;
+	left: 202px;
+}
+
+#memberInfo-Lucian {
+	position:absolute;
+	left: 202px;
+}
+
+#memberInfo-Avijit {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Tito {
+	position:absolute;
+	left: 202px;
+}
+
+#memberInfo-Nora {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Sierra {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Paul {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Natasha {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Omar {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-David {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Meer {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Snow {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Jacob {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-NatashaM {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Gurraj {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Alex {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Imran {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Khalil {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Lior {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Louise {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Naman {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Nikhil {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Pratik {
+	position:absolute;
+	left:202px;
+}
+
+#memberInfo-Shivansh {
+	position:absolute;
+	left:202px;
+}
+
+.memberInfoNew {
+	height: 200px;
+	font-size: 16px;
+	color: white;
+	background: #333;
+    background: rgba(0,0,0,.8);
+	width: 250px;
+	padding: 0px 5px 0px 5px;
+	border-top: 3px solid yellowgreen;
+	border-right: 3px solid yellowgreen;
+	border-bottom: 3px solid yellowgreen;
+}
+
+.memberInfoTitle {
+	font-size: 17px;
+	font-variant:700;
+	color: yellowgreen;
+}
+
+.memberInfoDescription {
+	font-weight:bolder;
+}
+
+.section_1 {
+	position: absolute;
+	left: -325px;
+}
+
+.section_2 {
+	position: absolute;
+	right: -50px;
+	/*top: -432px;*/
+}
+
+#subscribeMsg {
+	color: yellowgreen;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 10px;
+}

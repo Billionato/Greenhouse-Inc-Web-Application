@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Images/green_blurred_background.jpg);
+}
+
+#header {
+	position:fixed;
+	top: -1px;
+	right: 0px;
+	width: 100%;
+	background-color: #09C;
+	z-index: 1;
+}
+ 
+#cardContainer {
+	margin:auto;
+	width: 450px;
+	background-color: white;
+	border: 4px solid #09C;
+	border-radius: 5px;
+	margin-top: 75px;
+}
+
+#cardTitle {
+	background-color: #09C;
+	margin-top: -32px;
+}
+
+#loginAdmin {
+	display:none;
+	position:relative;
+	top: -32px;
+	background-color:lightblue;
+	/*height: 175px;*/
+	/*height: 200px;*/
+}
+
+#toggleAdmin {
+	position:relative;
+	width: 200px;
+	top: -32px;
+	font-weight:bolder;
+	text-align: center;
+	height: 20px;
+	background-color: lightblue;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin:auto;
+	cursor:pointer;
+}
+
+#toggleAdmin:hover {
+	background-color: lightgreen;
+}
+
+#bodyAdmin {
+	position:relative;
+	margin:auto;
+	width: 225px;
+	/*border:1px solid #09C;*/
+	top: 10px;
+}
+
+#phForm {
+	margin-top: -15px;
+}
+	
+#cardBody {
+	position:relative;
+	margin:auto;
+	width: 225px;
+	/*border:1px solid #09C;*/
+	margin-bottom: 25px;
+}
+
+.button {
+	color:#FFF;
+	background-color:#09C;
+	border-radius:5px;
+	border: solid 1px #20538D;
+	border:none;
+	font-size:16px;
+	font-weight:700;
+	font-stretch:extra-expanded;
+	height:32px;
+	width:150px;
+	padding:4px 16px;
+	margin:4px 0px 5px 40px;
+}
+
+.button:hover {
+	background: yellowgreen;
+    border: solid 1px #2A4E77;
+}
+	
+.linkHeader {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	color: white;
+	text-align: center;
+	/*border: 2px solid white;*/
+	padding-top: 10px;
+	text-decoration:none;
+	opacity: 0.5;
+}
+
+.linkHeader:hover {
+	background-color: yellowgreen;
+	text-decoration:none;
+	color: white;
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.75s;
+	-webkit-transition-property: opacity; /*For Safari*/
+	-webkit-transition-duration: 0.75s;
+}
+
+.txtField {
+	display:block;
+	width:200px;
+	padding:4px 10px;
+	margin-bottom: 5px;
+}
+
+.lst {
+	width:150px;
+	padding:4px 5px;
+	margin:0px 0px 5px 40px;
+}
+
+h3 {
+	color: white;
+	font-size:32px;
+	margin-left:10px;
+	font-weight:600;
+}
+
+p {
+	text-align:center;
+	margin:5px 0px 0px 10px;
+	font-weight:bolder;
+}
+
+
+a {
+	text-decoration:none;
+	color:#09C;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: yellowgreen;
+}
+
+/*Admin Login Form*/
+#form_admin {
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+/*Sign Up Form*/
+#phSignUpForm {
+	/*display: none;*/	
+	margin-top: -20px;
+}
+
+.page_section_title {
+	text-align: center;
+	color: yellowgreen;
+}
+
+#form_SignUp {
+	margin-top: -15px;
+}
+
+.section_title {
+	display:block;
+	width:205px;
+	padding:4px 10px;
+	margin-top:10px;
+	margin-bottom: 5px;
+	background-color:lightblue;
+	text-align:center;
+	font-weight:bolder;
+}
+
+.invalidMsg {
+	color: #F00;
+	margin: auto;
+	text-align:center;
+	font-weight: bold;
+}
+
+.invalid {
+	width:100%;
+	margin:auto;
+	margin-top:10px;
+	padding: 5px 0px 5px 0px;
+	background-color: #CCC;
+	border: 2px solid #F00;
+	color: #F00;
+	font-size: 16px;
+	/*font-weight:600;*/
+	text-align:center;
+}
+
+#msg {
+	/*margin-top: 5px;*/
+	margin: -20px 0px 20px 0px;
+}

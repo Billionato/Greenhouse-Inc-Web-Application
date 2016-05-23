@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_onlineOrders" value="name:TransactionID;datatype:int,name:Romano;datatype:real,name:Corazon;datatype:real,name:Pepper;datatype:real,name:Chili;datatype:real,name:Bag;datatype:int,name:Total;datatype:int,name:transactionDate;datatype:timestamp" />
+</info>
